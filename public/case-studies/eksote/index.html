@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/case-studies/eksote/">
+  <meta property="og:site_name" content="Joni Virtanen">
+  <meta property="og:title" content="Eksote">
+  <meta property="og:description" content="Eksote Redesigning Eksote.fi Website The goal of this project was to revamp the Eksote.fi website to improve user experience and address various usability issues. Key objectives included making the website more user-friendly and enhancing accessibility.
+User interviews In the pursuit of enhancing the Eksote website, we conducted user interviews as part of the project’s initial research phase. Our primary objective was to gain insights into user opinions and experiences with the current Eksote website. The valuable feedback obtained from these interviews served as a cornerstone throughout the entire project’s planning and design process, ensuring a user-centric approach.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="case-studies">
+    <meta property="article:published_time" content="2023-10-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-10-20T00:00:00+00:00">
+    <meta property="article:tag" content="Case-Study">
+    <meta property="article:tag" content="Ui-Design">
+    <meta property="article:tag" content="Ux-Design">
+    <meta property="article:tag" content="Ux-Research">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Eksote">
+  <meta name="twitter:description" content="Eksote Redesigning Eksote.fi Website The goal of this project was to revamp the Eksote.fi website to improve user experience and address various usability issues. Key objectives included making the website more user-friendly and enhancing accessibility.
+User interviews In the pursuit of enhancing the Eksote website, we conducted user interviews as part of the project’s initial research phase. Our primary objective was to gain insights into user opinions and experiences with the current Eksote website. The valuable feedback obtained from these interviews served as a cornerstone throughout the entire project’s planning and design process, ensuring a user-centric approach.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Eksote | Joni Virtanen
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                Joni Virtanen
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Eksote</h1>
+            <div class="text-center">
+              
+                Joni
+                <small>|</small>
+              
+              Oct 20, 2023
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <div class="featured-image">
+            <img class="img-fluid mx-auto d-block" src="/images/Eksote-nosto.png" alt="Eksote">
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="eksote">Eksote</h1>
+<h2 id="redesigning-eksotefi-website">Redesigning Eksote.fi Website</h2>
+<p>The goal of this project was to revamp the Eksote.fi website to improve user experience and address various usability issues. Key objectives included making the website more user-friendly and enhancing accessibility.</p>
+<h2 id="user-interviews">User interviews</h2>
+<p>In the pursuit of enhancing the Eksote website, we conducted user interviews as part of the project&rsquo;s initial research phase. Our primary objective was to gain insights into user opinions and experiences with the current Eksote website. The valuable feedback obtained from these interviews served as a cornerstone throughout the entire project&rsquo;s planning and design process, ensuring a user-centric approach.</p>
+<p>Our interviewees comprised a diverse group of 6 individuals, including 3 customer users of the website and 3 representatives of different Eksote stakeholders. With stakeholder interviews we also included questions regarding feedback they had received from their customers about the usage of Eksotes website.</p>
+<h4 id="demographics-and-device-usage">Demographics and device usage</h4>
+<h5 id="customers">Customers</h5>
+<p>The interviews included a diverse group of participants, ranging in age from 21 to 67 years old.</p>
+<p>Participants reported using both mobile and desktop devices to access the Eksote.fi website. The choice of device often depended on their location and context. For example, participants mentioned that they preferred using a desktop computer at home but switched to a mobile device when accessing the website from other locations. This information highlighted the importance of optimizing the website for both desktop and mobile users.</p>
+<h5 id="stakeholders">Stakeholders</h5>
+<p>The interviewees represented the following organizations: MIELI South Karelia Mental Health Association, Saimaa Cancer Society and City of Imatra</p>
+<p>All the interviewees mentioned using the website on both mobile devices and desktop computers. The choice of device depended on their usage needs: personal use vs. work-related use. For work-related tasks, the interviewees preferred desktop computers, while they opted for mobile devices for personal use.</p>
+<h4 id="summary-of-the-findings---customers">Summary of the findings - Customers</h4>
+<p>All interview recordings were analyzed, and the comments made by the interviewees were documented. Subsequently, the comments were categorized into appropriate themes:</p>
+<ul>
+<li>Content
+<ul>
+<li>Structure</li>
+<li>Information Retrieval</li>
+<li>Information Categorization</li>
+</ul>
+</li>
+<li>HYVIS</li>
+<li>Contact</li>
+<li>Search</li>
+</ul>
+<blockquote>
+<p>&ldquo;Finding information is challenging and requires a lot of effort and patience.&rdquo;</p>
+</blockquote>
+<h5 id="content---structure">Content - structure</h5>
+<p>According to the interviewees, the most important things that should be easily accessible on the website are locations, contact information, and common links. Additionally, presenting various current topics on the homepage was seen as a positive feature.</p>
+<ul>
+<li>&ldquo;Links, for example, to appointment scheduling, should be readily available.&rdquo;</li>
+<li>&ldquo;Having current topics on the homepage is a good thing (such as the current COVID-19 information).&rdquo;</li>
+<li>&ldquo;Common links and contact information should be right at the beginning of the homepage.&rdquo;</li>
+</ul>
+<h5 id="content---information-retrieval">Content - Information retrieval</h5>
+<p>All interviewees primarily searched for a specific service or location through Google rather than using Eksote&rsquo;s website navigation. All interviewees also mentioned that one of the major challenges with using the Eksote website is finding the desired information.</p>
+<ul>
+<li>&ldquo;I tried to figure out what &lsquo;first contact&rsquo; means. I eventually found it, but it was difficult and time-consuming.&rdquo;</li>
+<li>&ldquo;To find the information I want, I often have to click on many links, which takes a lot of time.&rdquo;</li>
+<li>&ldquo;Finding information is challenging and requires a lot of effort and patience.&rdquo;</li>
+</ul>
+<h5 id="content---information-categorization">Content - Information categorization</h5>
+<p>According to the interviewees, one of the issues with the current website is a lack of clarity in presenting information. To address this, they suggested using images and colors to differentiate different content, especially on pages with extensive text. The categorization of services, particularly health and social services, was also considered illogical.</p>
+<ul>
+<li>&ldquo;The &lsquo;Locations&rsquo; page is relatively clear because it has descriptive images and categorization.&rdquo;</li>
+<li>&ldquo;Using images and colors on the pages to clarify and organize content, which can be quite extensive at times.&rdquo;</li>
+</ul>
+<h5 id="contact">Contact</h5>
+<p>Concerning contact options, all interviewees unanimously agreed that the website should provide a wide range of contact methods, such as phone, chat, and direct messaging to specific individuals.</p>
+<ul>
+<li>&ldquo;Contact options have worsened because there is no longer an option to contact your own healthcare provider. All inquiries now go to the same place, where someone may eventually respond.&rdquo;</li>
+<li>&ldquo;If I could change one thing, it would be to have a &lsquo;hotline&rsquo; to my own healthcare provider. It would make life easier, especially for us with chronic conditions who have a long treatment history and a relationship with our healthcare provider.&rdquo;</li>
+</ul>
+<h5 id="search">Search</h5>
+<ul>
+<li>All interviewees mentioned that they do not use the site&rsquo;s internal search function. The primary reason for this is the belief that they may not use the right terms, making the search feature less useful.</li>
+<li>&ldquo;I haven&rsquo;t used the search because I wouldn&rsquo;t find the information I want since I don&rsquo;t know the correct terms.&rdquo;</li>
+</ul>
+<h5 id="hyvis">Hyvis</h5>
+<p>Although the interviews did not directly address HYVIS, as it is not within the project&rsquo;s scope, some users provided their own comments and suggestions:</p>
+<ul>
+<li>&ldquo;HYVIS should contain all possible information related to my visits and tests (epicrisis, lab results, etc.).&rdquo;</li>
+<li>&ldquo;Referrals could be electronic, allowing us to schedule appointments for lab tests, ensuring the right tests are conducted.&rdquo;</li>
+<li>&ldquo;After strong authentication, customizable personal pages would make it easier to access the services I need the most.&rdquo;</li>
+<li>&ldquo;I used HYVIS actively for a long time, but it took a long time to get responses or sometimes I didn&rsquo;t receive them at all.&rdquo;</li>
+<li>&ldquo;Not all lab results are visible. For example, if 10 different tests are done at once, only 1-2 results may become visible.&rdquo;</li>
+</ul>
+<h4 id="summary-of-the-findings---stakeholders">Summary of the findings - Stakeholders</h4>
+<p>All interview recordings were analyzed, and the comments made by the interviewees were documented. Subsequently, the comments were categorized into appropriate themes:</p>
+<ul>
+<li>Content
+<ul>
+<li>Structure</li>
+<li>Information Retrieval</li>
+<li>Information Categorization</li>
+<li>Terms</li>
+</ul>
+</li>
+<li>Contact</li>
+<li>Website design</li>
+</ul>
+<h5 id="content---structure-1">Content - Structure</h5>
+<ul>
+<li>Interviewees identified key issues with the Eksote website, including an organizational focus, confusing site navigation, and information that requires multiple clicks to access.</li>
+<li>Users suggested focusing on the needs of individuals seeking assistance and simplifying the homepage by reducing unclear options and jargon.</li>
+<li>They recommended having essential information like emergency services, language selection, and well-organized contact links on the homepage.</li>
+<li>Interviewees proposed removing features such as media releases and &ldquo;Participate and Influence&rdquo; from the homepage.</li>
+<li>In an ideal scenario, users wished for service paths that clarify available services and a &ldquo;what&rsquo;s bothering me&rdquo; type of query, similar to Terveystalo&rsquo;s website.</li>
+</ul>
+<h5 id="content---information-retrieval-1">Content - Information Retrieval</h5>
+<ul>
+<li>Interviewees found searching for information on the site challenging and preferred using external search engines with keywords like &ldquo;Eksote + service.&rdquo;</li>
+<li>They mentioned that finding information about support organizations can be particularly difficult for individuals facing health challenges.</li>
+</ul>
+<h5 id="content---information-categorization-1">Content - Information Categorization:</h5>
+<ul>
+<li>Interviewees pointed out issues with content categorization, including an excessive amount of text without images or graphics, difficulty finding information (e.g., cancer not listed under &ldquo;Health Services &gt; Diseases A-Z&rdquo;), and challenges in locating contact details and understanding whom to contact.</li>
+<li>Users noted that certain pages had a wealth of information but were poorly organized, causing difficulty in finding content and understanding terminology, such as &ldquo;Palliative Clinic.&rdquo;</li>
+<li>They believed the website should be organized based on user needs and available services rather than the organization&rsquo;s structure.</li>
+</ul>
+<h5 id="content---terminology">Content - Terminology</h5>
+<ul>
+<li>Interviewees highlighted an overuse of professional terminology on the website, which made it challenging for users to understand.</li>
+<li>They found a lack of information on peer support and the need for descriptions of services provided by partner organizations.</li>
+</ul>
+<h5 id="contact-1">Contact</h5>
+<ul>
+<li>Interviewees mentioned that finding contact information on the site was difficult and, even when a contact list was available, it didn&rsquo;t provide information about whom to contact in different situations.</li>
+<li>Some suggested implementing a chat feature to guide customers to the right services and offer advice, such as whether to contact emergency services.</li>
+</ul>
+<h4 id="summary-of-the-analysis">Summary of the analysis</h4>
+<p>In summary, we concluded that following pain points were the most crucial ones to redesign.</p>
+<dl>
+<dt><em>1. Difficulty Finding Contact Information</em></dt>
+<dd>Many users found it challenging to locate contact information for services, such as doctor&rsquo;s appointment phone numbers. This highlighted the need for improved information visibility.</dd>
+<dt><em>2. Complex Navigation</em></dt>
+<dd>Participants mentioned that the website&rsquo;s navigation structure was complex and organization-centric. They struggled to understand how services were categorized and where to find the information they needed. This insight emphasized the importance of simplifying the website&rsquo;s structure for better user comprehension.</dd>
+<dt><em>3. Ineffective Search Functionality</em></dt>
+<dd>Users expressed frustration with the search functionality on the website. They found that the search results were often irrelevant or did not lead them to the desired information. This underscored the need to enhance the search feature for improved user satisfaction.</dd>
+</dl>
+<h2 id="design-sprint">Design sprint</h2>
+<p>The Design Sprint was a focused, collaborative effort aimed at addressing the identified challenges and envisioning a better website. It was condensed into a three-day remote workshop. Here&rsquo;s a more detailed breakdown of the Design Sprint.</p>
+<h3 id="day-1---current-state-and-long-term-goal">Day 1 - Current State and long-term goal</h3>
+<h4 id="mapping">Mapping</h4>
+<p><img src="/images/eksote/kuva-2-1-1024x538.jpg" alt=""></p>
+<p>The Design Sprint began by creating a shared understanding of the current state of the website, utilizing a map that depicted various user journeys on the website.</p>
+<h4 id="expert-interviews">Expert Interviews</h4>
+<ul>
+<li>Due to scheduling challenges, expert interviews were conducted using questionnaires. The facilitator of the Sprint went through the questionnaire responses.</li>
+<li>Simultaneously, other participants used the &ldquo;How Might We?&rdquo; (HMW) technique to make notes about the insights and challenges they found in the questionnaire responses.</li>
+<li>All notes were then compiled into four different categories, and participants voted on the most critical challenges.
+<ul>
+<li>The voting process identified 11 critical challenges that one or more participants deemed essential for the success of the website redesign.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/eksote/kuva-3-1-1024x530.jpg" alt=""></p>
+<h4 id="two-year-goal">Two-Year Goal</h4>
+<ul>
+<li>After gathering and voting on challenges, the next step was to brainstorm and select a long-term goal.</li>
+<li>Participants were encouraged to be highly positive and envision what Eksote&rsquo;s web service would ideally look like in two years.</li>
+<li>The ideation phase allowed each participant to generate as many possibilities as they wanted, followed by voting to select the most promising two-year goal.</li>
+</ul>
+<h4 id="sprint-questions">Sprint Questions</h4>
+<p>Following the two-year goal setting, the group brainstormed and voted on &ldquo;Sprint Questions,&rdquo; considering potential obstacles that could hinder the achievement of the two-year goal.</p>
+<h3 id="day-2---benchmarking-and-ideation">Day 2 - Benchmarking and Ideation</h3>
+<h4 id="benchmark-review">Benchmark Review</h4>
+<p>Day 2 began with a review of benchmarks identified by participants, which highlighted solutions to the same challenges that needed to be addressed for Eksote&rsquo;s website. The purpose of benchmarks was to inspire participants&rsquo; own solution ideation.</p>
+<p><img src="/images/eksote/kuva-4-1.jpg" alt=""></p>
+<h4 id="solution-concept-development">Solution Concept Development</h4>
+<p>The latter part of the day allowed participants to independently work on solution concepts.</p>
+<h3 id="day-3---solution">Day 3 - Solution</h3>
+<h4 id="solution-gallery">Solution Gallery</h4>
+<p>Day 3 began by reviewing solution concepts generated on the previous day and selecting the best ideas to serve as the basis for a future prototype.</p>
+<p><img src="/images/eksote/kuva-5-1.jpg" alt=""></p>
+<h4 id="prototype-draft">Prototype Draft</h4>
+<p>The final task in the collaborative workshop was to create a draft for the future prototype based on the selected solution concepts.This was done in a collaborative method using the voted solutions as a base solution and generating the new Front page draft of the eksote.fi website.</p>
+<p><img src="/images/eksote/kuva-6-1-1.png" alt=""></p>
+<h2 id="redesign">Redesign</h2>
+<p>The redesign of the Eksote website was a meticulous process that drew its foundation from both user interviews and the outcomes of the Design Sprint. This approach aimed to ensure that the new web interface was deeply rooted in the needs and expectations of its users.</p>
+<p>The redesign effort was an iterative one, emphasizing continuous improvement and adaptation to user feedback. The goal was to create a web solution that could evolve seamlessly over time, particularly by constructing a highly modular system. This modular approach not only facilitated the development of new pages but also ensured that they adhered to the established styles and structures of the existing website.</p>
+<p>The initial stages of the redesign process began with the creation of wireframes, which provided a visual representation of the site&rsquo;s layout and functionalities. These wireframes acted as a blueprint for the subsequent design phases.</p>
+<p>Ultimately, the culmination of the redesign process resulted in the emergence of new versions of the most critical pages of the eksote.fi website. This new design not only reflected the insights gained from user research but also offered a more user-friendly, modular, and adaptable platform to meet the ever-evolving needs of Eksote&rsquo;s users.</p>
+<h3 id="the-navigation">The Navigation</h3>
+<p>In our navigation redesign for the Eksote website, our primary objective was to provide a seamless and user-centric experience for two distinct user categories: customers (patients) and healthcare professionals (including doctors, specialists and stakeholders).</p>
+<p>To accomplish this, we introduced basivcally two separate navigation systems tailored to each user group. This approach streamlined the amount of information within the menus, making it easier for users to pinpoint the content that was most relevant to their specific needs. By distinguishing between the two user groups, we aimed to enhance content discoverability and ensure that users could effortlessly access the information that mattered most to them.</p>
+<p>Furthermore, our revamped navigation wasn&rsquo;t static; it was designed to be dynamic. This allowed us to spotlight important, time-sensitive topics when necessary. This dynamic aspect ensured that the website could adapt to current events and emerging trends, keeping the content fresh and readily accessible.</p>
+<p>In summary, our navigation redesign not only simplified content discovery but also catered to diverse user needs. It provided a tailored experience for both customer-patients and healthcare professionals, contributing to an overall improved user experience.</p>
+<figure>
+<p><img src="/images/eksote/Nayttokuva-2023-10-31-kello-11.26.19-1.png" alt="Image depicting the previous version of the eksote.fi websites navigation."></p>
+<figcaption>
+<p><em>Previous version of the navigation.</em></p>
+</figcaption>
+</figure>
+<figure>
+<p><img src="/images/eksote/Frame-284-1.png" alt="Image depicting the new redesigned version of the eksote.fi navigation."></p>
+<figcaption>
+<p><em>New redesigned version of the navigation.</em></p>
+</figcaption>
+</figure>
+<h3 id="finding-information">Finding Information</h3>
+<p>According to user feedback, another critical issue on the website was the accessibility of information, especially when it came to finding contact details. To address this concern, we took a strategic approach by prioritizing the visibility of essential links and contact information right at the beginning of the homepage. This modification ensured that users could swiftly access vital information, particularly in urgent situations.</p>
+<p>In summary, our solution focused on improving the discoverability of information, specifically contact details, by prominently featuring them at the top of the homepage. This adjustment aimed to enhance the user experience by providing quick and easy access to crucial content.</p>
+<p><img src="/images/eksote/Eksote-Etela-Karjalan-sosiaali-ja-terveyspiiri-1-2.png" alt="Picture of the previous desktop version of the eksote.fi websites front page."></p>
+<p><img src="/images/eksote/Etusivu-1-1-1.jpg" alt="Picture of the new redesigned desktop version of the eksote.fi websites front page."></p>
+<p>In our quest to optimize the user experience, we also revitalized the individual branch pages to ensure that users could easily access essential information related to these locations.</p>
+<p>We achieved this by completely redesigning the layout of each branch&rsquo;s page. We strategically elevated the most critical information pertaining to each branch, such as its address and phone number, to the top of the page. This prominent placement ensured that users could swiftly and effortlessly find the key details they needed upon landing on the branch&rsquo;s page.</p>
+<p>In summary, our approach involved a comprehensive redesign of individual branch pages, with a focus on making vital information immediately accessible. By emphasizing the essential details right at the top of each branch page, we aimed to significantly improve the user experience and ensure users could readily access crucial information when interacting with these specific pages.</p>
+<p><img src="/images/eksote/Lauritsalan-hyvinvointiasema-2.png" alt="Picture of the previous desktop version of the eksote.fi websites branch page"></p>
+<p><img src="/images/eksote/Synnytysosasto-G1-4.jpg" alt="Picture of the previous desktop version of the eksote.fi websites branch"></p>
+<h3 id="care-journeys">Care Journeys</h3>
+<p>We also introduced an entirely new content type to the website. This content type is specifically designed to offer users a clear and concise depiction of complex processes, such as childbirth or different treatment journeys.</p>
+<p>Given that these care pjourneys can involve a substantial amount of information, we meticulously planned the implementation to ensure that users are not overwhelmed by a deluge of information, which could potentially lead to stress or confusion. Our solution provides information in a structured and phased manner, ensuring that users only receive the relevant content at the appropriate stages of their journey.</p>
+<p><img src="/images/eksote/Odottajan-hoitopolku-4.png" alt=""></p>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#redesigning-eksotefi-website">Redesigning Eksote.fi Website</a></li>
+    <li><a href="#user-interviews">User interviews</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#design-sprint">Design sprint</a>
+      <ul>
+        <li><a href="#day-1---current-state-and-long-term-goal">Day 1 - Current State and long-term goal</a></li>
+        <li><a href="#day-2---benchmarking-and-ideation">Day 2 - Benchmarking and Ideation</a></li>
+        <li><a href="#day-3---solution">Day 3 - Solution</a></li>
+      </ul>
+    </li>
+    <li><a href="#redesign">Redesign</a>
+      <ul>
+        <li><a href="#the-navigation">The Navigation</a></li>
+        <li><a href="#finding-information">Finding Information</a></li>
+        <li><a href="#care-journeys">Care Journeys</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/case-study"
+                target="_blank"
+              >case-study</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/ui-design"
+                target="_blank"
+              >ui-design</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/ux-design"
+                target="_blank"
+              >ux-design</a></li>
+              
+              <li class="list-inline-item"><a href="http://localhost:1313/tags/ux-research"
+                target="_blank"
+              >ux-research</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Joni Virtanen">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2025  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Joni Virtanen</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in Blogs on Joni Virtanen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digitaalisen palvelun käytettävyytestaus</title>
+      <link>http://localhost:1313/blogs/kaytettavyystestaus/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/kaytettavyystestaus/</guid>
+      <description>&lt;h1 id=&#34;mitä-miksi-ja-miten&#34;&gt;Mitä, miksi ja miten?&lt;/h1&gt;&#xA;&lt;p&gt;Käytettävyystestaus on olennainen osa palvelun suunnittelua sekä oiva keino löytää palvelun, kuten verkkosivun tai mobiilisovelluksen, käytettävyyden kipukohdat ja lisätä asiakasymmärrystä. Käytettävyystestauksia voidaan toteuttaa koko palvelulle, jollekin palvelun osalle tai vaikka vain tietylle ominaisuudelle. On hyvä kuitenkin pitää mielessä, että mitä tarkemmin testaus kohdennetaan, sitä parempia tuloksia myös saadaan.&lt;/p&gt;&#xA;&lt;p&gt;Käyttäjätestaus vai käytettävyystestaus? Kyseisiä termejä käytetään usein tarkoittamaan samaa asiaa. Näiden välillä kuitenkin on ero: käyttäjätestaus on sateenvarjokäsite, jolla viitataan erilaisiin menetelmiin joilla voidaan testata esimerkiksi mobiilisovelluksen käyttökokemusta. Käytettävyystesti taas on yksi testausmenetelmä muiden joukossa. Muita käyttäjätestauksen menetelmiä ovat mm. a/b testaus, fokusryhmähaastattelu, katseenseuranta (eyetracking), kenttätutkimus (field study) ja card sorting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Etätyöpajan järjestäminen</title>
+      <link>http://localhost:1313/blogs/etatyopajan-jarjestaminen/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/etatyopajan-jarjestaminen/</guid>
+      <description>&lt;h1 id=&#34;6-vinkkiä-etätyöpajan-järjestämiseksi&#34;&gt;6 vinkkiä etätyöpajan järjestämiseksi&lt;/h1&gt;&#xA;&lt;p&gt;Työpajat mielletään lähes yksinomaan menetelmäksi, jota varten osallistujien tulee kokoontua yhteen ja samaan tilaan usein jopa monen työpäivän ajaksi putkeen. Esim. Google Venturesin kehittämä Design Sprint on loistava esimerkki; Design Sprintin perusrakenne on se, että kokoonnutaan sopivalla tiimillä viikoksi samaan tilaan. Tämän viikon aikana tarkoituksena on siirtyä olemassa olevasta ongelmasta tilanteeseen, jossa on ideoituna, prototyypattuna, sekä testattuna tuote, palvelu tms. jonka avulla ongelma saadaan mahdollisesti ratkaistua. Design Sprint (ja muut työpajat) ovat aivan loistavia työkaluja vaikeiden haasteiden ratkaisemiksi, mutta ottaen huomioon nykyisen tilanteen, kokoontuminen porukalla yhteen (usein ahtaaseen) tilaan ei ole suotavaa. Erilaisten toimijoiden tarve ratkoa toimintaansa koskevia haasteita tai ongelmia ei kuitenkaan ole hävinnyt koronan myötä mihinkään (kenties pikemminkin päinvastoin). Hyvä uutinen on se, että erilaiset työpajat, Design Sprint mukaan lukien voidaan aivan yhtä hyvin järjestää myös etätyöpajan muodossa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Työpaja vs. palaveri</title>
+      <link>http://localhost:1313/blogs/tyopaja-vs-palaveri/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/tyopaja-vs-palaveri/</guid>
+      <description>&lt;h1 id=&#34;4-syytä-järjestää-työpaja-perinteisen-palaverin-sijaan&#34;&gt;4 syytä järjestää työpaja perinteisen palaverin sijaan&lt;/h1&gt;&#xA;&lt;p&gt;Oletko joskus istunut palaverissa, jossa tuntuu että mikään asia ei etene, keskustelu kiertää kehää, päätöksiä ei saada tehtyä eikä palaverin jälkeen oikein kukaan tiedä mitä tulisi seuraavaksi tehdä? Et ole yksin sillä joidenkin tutkimusten mukaan erilaisiin palavereihin kuluu jopa 31 tuntia kuukaudessa (lähes 1 täysi työviikko)! Kaiken huipuksi erään tutkimuksen perusteella johtajat kokevat, että jopa 67% palavereista ovat epäonnistuneita. Mikä siis ratkaisuksi? Palavereista ei tietenkään voida luopua kokonaan, mutta yhtenä ratkaisuna kannattaa kokeilla järjestää työpaja perinteisen palaverin sijaan.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

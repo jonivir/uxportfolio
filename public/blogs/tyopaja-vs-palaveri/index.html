@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href=/fav.png type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/blogs/tyopaja-vs-palaveri/">
+  <meta property="og:site_name" content="Joni Virtanen">
+  <meta property="og:title" content="Työpaja vs. palaveri">
+  <meta property="og:description" content="4 syytä järjestää työpaja perinteisen palaverin sijaan Oletko joskus istunut palaverissa, jossa tuntuu että mikään asia ei etene, keskustelu kiertää kehää, päätöksiä ei saada tehtyä eikä palaverin jälkeen oikein kukaan tiedä mitä tulisi seuraavaksi tehdä? Et ole yksin sillä joidenkin tutkimusten mukaan erilaisiin palavereihin kuluu jopa 31 tuntia kuukaudessa (lähes 1 täysi työviikko)! Kaiken huipuksi erään tutkimuksen perusteella johtajat kokevat, että jopa 67% palavereista ovat epäonnistuneita. Mikä siis ratkaisuksi? Palavereista ei tietenkään voida luopua kokonaan, mutta yhtenä ratkaisuna kannattaa kokeilla järjestää työpaja perinteisen palaverin sijaan.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blogs">
+    <meta property="article:published_time" content="2023-10-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-10-31T00:00:00+00:00">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Työpaja vs. palaveri">
+  <meta name="twitter:description" content="4 syytä järjestää työpaja perinteisen palaverin sijaan Oletko joskus istunut palaverissa, jossa tuntuu että mikään asia ei etene, keskustelu kiertää kehää, päätöksiä ei saada tehtyä eikä palaverin jälkeen oikein kukaan tiedä mitä tulisi seuraavaksi tehdä? Et ole yksin sillä joidenkin tutkimusten mukaan erilaisiin palavereihin kuluu jopa 31 tuntia kuukaudessa (lähes 1 täysi työviikko)! Kaiken huipuksi erään tutkimuksen perusteella johtajat kokevat, että jopa 67% palavereista ovat epäonnistuneita. Mikä siis ratkaisuksi? Palavereista ei tietenkään voida luopua kokonaan, mutta yhtenä ratkaisuna kannattaa kokeilla järjestää työpaja perinteisen palaverin sijaan.">
+
+
+<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Työpaja vs. palaveri | Joni Virtanen
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                Joni Virtanen
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
+                            
+                            Blog
+                        </a>
+                    </li>
+                    
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Työpaja vs. palaveri</h1>
+            <div class="text-center">
+              
+              Oct 31, 2023
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="4-syytä-järjestää-työpaja-perinteisen-palaverin-sijaan">4 syytä järjestää työpaja perinteisen palaverin sijaan</h1>
+<p>Oletko joskus istunut palaverissa, jossa tuntuu että mikään asia ei etene, keskustelu kiertää kehää, päätöksiä ei saada tehtyä eikä palaverin jälkeen oikein kukaan tiedä mitä tulisi seuraavaksi tehdä? Et ole yksin sillä joidenkin tutkimusten mukaan erilaisiin palavereihin kuluu jopa 31 tuntia kuukaudessa (lähes 1 täysi työviikko)! Kaiken huipuksi erään tutkimuksen perusteella johtajat kokevat, että jopa 67% palavereista ovat epäonnistuneita. Mikä siis ratkaisuksi? Palavereista ei tietenkään voida luopua kokonaan, mutta yhtenä ratkaisuna kannattaa kokeilla järjestää työpaja perinteisen palaverin sijaan.</p>
+<h2 id="perinteisen-palaverin-ongelmat">Perinteisen palaverin ongelmat</h2>
+<p>Yleisimpiä vinkkejä joita palaverien tehostamiselle annetaan ovat mm. selkeän agendan luonti, palaverin aikataulutus (ja siinä pysyminen!) sekä se, että onko palaveri ylipäätään tarpeellinen.</p>
+<p>Nämä ovat kaikki hyviä vinkkejä, mutta eivät lopulta ratkaise sitä perimmäistä ongelmaa: koko perinteisten palaverien idea on vastoin ihmisten työskentelytapoja sekä sitä miten ihmiset käsittelevät tietoa. Mikäli palaverissa ei ole käytössä selkeitä prosesseja ja työkaluja ne noudattavat aina enemmän tai vähemmän samaa kaavaa:</p>
+<p>Palaveria dominoivat ne kovaäänisimmät ja itsevarmimmat osallistujat, samalla kun porukan introvertit ja junior-tason tekijät istuvat hiljaa uskaltamatta ottaa kantaa mihinkään. Vaikka kokisivatkin että heillä olisi sopiva ratkaisu. Ryhmäajattelu ottaa vallan, eikä kukaan uskalla esittää eriävää mielipidettä/ratkaisua. Keskustelu karkaa sivuraiteille ja lopulta kukaan ei enää ole varma mikä olikaan palaverin alkuperäinen tarkoitus. Palaverin päätyttyä kaikilla on toisistaan poikkeava käsitys siitä mitä palaverissa lopulta päätettiin, vai päätettiinkö edes mitään? Ainoa etäisesti konkreettinen asia mitä palaverista jäi käteen on vain kalenterimerkintä seuraavasta palaverista.</p>
+<h2 id="työpaja-palaverin-sijaan">Työpaja palaverin sijaan?</h2>
+<p>Tietenkään ihan jokaista lyhyttä palaveria ei välttämättä kannata korvata työpajoilla, koska niiden järjestäminen vaatii jonkin verran enemmän vaivaa kuin perinteisen palaverin. Näissäkin tilanteissa kuitenkin on usein kannattavaa ottaa oppia ja hyödyntää edes joitakin työpajamenetelmiä. Tilanteita, joihin työpajoja kannattaa erityisesti hyödyntää on esimerkiksi:</p>
+<ul>
+<li>johonkin ongelmaan kaivataan ratkaisuideoita. </li>
+<li>Tarvitaan päätöksiä miten jossakin asiassa edetään.</li>
+</ul>
+<p>Yhtenä keskeisenä erona työpajan ja perinteiseen palaveriin välillä on selkeä ennalta suunniteltu prosessi ja käytetyt “työkalut”. Siinä missä perinteisissä palavereissa asioita lähdetään ratkomaan sillä, että joku heittää ilmoille avoimen kysymyksen, johon ehkä saadaan vastaus; Työpajassa näitä avoimia keskusteluita ei käydä, vaan ne korvataan erilaisilla harjoituksilla tai työskentelytavoilla. Kun koko työpaja on selkeästi jaettu omiin aikataulutettuihin vaiheisiinsa varmistetaan, ettei keskustelu jää kiertämään kehää tai eksy sivuraiteille eikä myöskään ennalta asetettu tarkoitus unohdu. </p>
+<h2 id="4-syytä-miksi-työpaja-on-parempi-kuin-perinteinen-palaveri">4 syytä miksi työpaja on parempi kuin perinteinen palaveri</h2>
+<p>Järjestämällä hyvin suunniteltu ja fasilitoitu työpaja palaverin sijaan voidaan:</p>
+<ol>
+<li>Poistaa ryhmäajattelun haitallinen vaikutus.</li>
+<li>Saada jokaisen osallistujan ideat ja mielipiteet varmasti kuulluiksi.</li>
+<li>Varmistaa, että jokaisella osallistujalla on yhteneväinen käsitys käsitellystä aiheesta.</li>
+<li>Pitää huolta, että lopputuloksena on jotain oikeasti konkreettista. (Eikä vain kalenterimerkintä seuraavasta palaverista.)</li>
+</ol>
+<h2 id="mitä-työpajan-järjestäminen-vaatii">Mitä työpajan järjestäminen vaatii?</h2>
+<p>Yksi keskeisimmistä tekijöistä joilla varmistetaan työpajan onnistuminen on fasilitointi. Fasilitoinnin tarkoituksena on ohjata työpajan kulkua ja ryhmän työskentelyä sekä auttaa osallistujia saamaan itsestään mahdollisimman paljon irti. Fasilitaattorin rooli työpajassa on siis se, että hän ei osallistu varsinaiseen keskusteluun eikä ideointiin vaan hänen tehtävänään on ohjata muita osallistujia ja auttaa heitä keskittymään vain käsillä olevaan aiheeseen. Fasilitaattorin lisäksi voi olla tarpeen nimetä työpajaan päättäjä, jolla on se lopullinen päätösvalta jokaiseen asiaan. Päättäjän tulisi olla sellainen henkilö, jolla on eniten ns. pelissä käsiteltävän aiheen suhteen.</p>
+<p>Fasilitoinnin lisäksi tärkeää työpajan onnistumisen kannalta on jo aiemmin mainittu rakenne. Tämän lisäksi suositeltavaa on aikatauluttaa työpajan jokainen vaihe, sekä myös pysyä suunnitellussa aikataulussa, vaikka tuntuisikin siltä, että jokin asia jää kesken! Työpajalle tulee määritellä etukäteen myös selkeä aihe tai teema. Tällä varmistetaan, että kaikkillei osallistujille on selvää, miksi työpaja järjestetään ja mikä työpajan tavoite on.</p>
+<p>Työpajan järjestämiseksi ei tarvita mitään erityisiä välineitä eikä tarvikkeita. Useimmiten riittää nippu post-it lappuja, tusseja, äänestystarroja sekä valkotaulu tai jokin vastaava iso pinta, johon post-it laput voidaan liimata kaikkien nähtäville. Lisäksi jonkinlainen ajastin, jolla voidaan varmistaa aikataulussa pysyminen on hyvä lisä ja mikäli ajastin on sellainen, joka näkyy kaikille osallistujille, aina parempi.</p>
+<h2 id="kuullostaako-haastavalta">Kuullostaako haastavalta?</h2>
+<p>Ei huolta! Vaikka et olisikaan valmis hyppäämään suoraan syvään päätyyn ja järjestämään täysimittaista työpajaa perinteisen palaverin sijaan, sisällyttämällä edes joitakin työpajojen menetelmiä palavereihin voit tehdä niistä huomattavasti miellyttävämpiä ja tuottavampia. Jo pelkästään se, että palaverillla on fasilitaattori ja selkeä rakenne tarjoaa yleensä paljon parempia tuloksia. Voit kokeilla esim. seuraavanlaista rakennetta kun olet järjestämässä palaveria, jonka tavoitteena on löytää ratkaisu käsillä olevaan ongelmaan:</p>
+<h3 id="1-aloita-ongelmasta">1. Aloita ongelmasta</h3>
+<ul>
+<li>Käykää ensin yhdessä läpi, mikä on se ongelma johon tarvitsette ratkaisun.</li>
+<li>Lisävinkki: Kun käsiteltävä ongelma on selvillä, muotoilkaa se uudelleen kirjoittamalla se muotoon “Miten voisimme…?”.</li>
+<li>HUOM! Mikäli ongelma on jo tiedossa, älkää silti hypätkö tämän vaiheen yli. Käymällä ongelma aluksi yhdessä läpi varmistetaan, että kaikilla on yhteneväinen käsitys aiheesta. Lisäksi muotoilemalla negatiivinen ongelma uudelleen positiiviseksi haasteeksi/mahdollisuudeksi, helpotetaan osallistujien ideointia.</li>
+</ul>
+<p>Esimerkki ongelman muotoilusta haasteeksi. Mikäli ongelma on: Toimistolla on vaikea keskittyä työntekoon. Uudelleen muotoiltu haaste voisi olla: Miten voisimme varmistaa, että toimistolla on helpompi keskittyä?</p>
+<h3 id="2-ideointi">2. Ideointi</h3>
+<ul>
+<li>Kun ongelma on kaikille selvä, voitte aloittaa ideoinnin.</li>
+<li>Suosituksena on toteuttaa ideointi yhdessä, yksin periaatteella; Jokainen osallistuja kirjaa ilman keskustelua niin montaa ideaa post-it lapuille kuin vain annetussa ajassa ehtii .</li>
+<li>Lisävinkki: Pyrkikää ideointivaiheessa aina määrään ei laatuun. Mitä suuremman määrän ideoita pystytte tuottamaan sitä varmemmin syntyvät myös ne laadukkaat ideat.</li>
+</ul>
+<h3 id="3-äänestys">3. Äänestys</h3>
+<ul>
+<li>Kun kaikki ideat on kirjattu ylös, on aika valita äänestämällä, mikä tai mitkä ideat ovat osallistujien mielestä paras tai parhaat ratkaisemaan käsiteltävän ongelman.</li>
+<li>Suositeltavaa on käyttää tarraäänestystä, jossa jokainen osallistuja saa sopivan määrän äänestystarroja esim. 3-5 kpl ja ilman keskustelua liimaa tarrat niihin ideoihin joita pitää parhaana ratkaistavan ongelman kannalta.</li>
+<li>Huom! Omia ideoita saa äänestää ja yhdelle idealle voi antaa vaikka kaikki äänensä.</li>
+</ul>
+<h3 id="4-päätä-konkreettiset-toimet">4. Päätä konkreettiset toimet</h3>
+<ul>
+<li>Valitkaa 1-3 eniten ääniä saanutta ideaa ja kehittäkää niiden toteuttamiseksi selkeä suunnitelma ja toimet miten ideaa testataan käytännössä, kuka nämä toteuttaa, sekä mittarit joilla idean onnistuminen todennetaan.</li>
+</ul>
+<p>Esimerkki konkreettisista toimista. Mikäli paras idea on: &ldquo;hankitaan kaikille vastamelukuulokkeet&rdquo;. Konkreettiset toimet voisivat olla, että  Pekka hankkii 3 kpl vastamelukuulokkeita ja Liisa, Matti ja Henna käyttävät kuulokkeita seuraavat 2 viikkoa.</p>
+<p>Onnistumiskriteeri voisi olla esim. Helpottivatko kuulokkeet keskittymistä toimistolla?</p>
+<ul>
+<li>Kirjoitettu 18.2.2022</li>
+<li>Kirjoitettu alunperin Agenda Helsingin verkkosivuja varten</li>
+</ul>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#perinteisen-palaverin-ongelmat">Perinteisen palaverin ongelmat</a></li>
+    <li><a href="#työpaja-palaverin-sijaan">Työpaja palaverin sijaan?</a></li>
+    <li><a href="#4-syytä-miksi-työpaja-on-parempi-kuin-perinteinen-palaveri">4 syytä miksi työpaja on parempi kuin perinteinen palaveri</a></li>
+    <li><a href="#mitä-työpajan-järjestäminen-vaatii">Mitä työpajan järjestäminen vaatii?</a></li>
+    <li><a href="#kuullostaako-haastavalta">Kuullostaako haastavalta?</a>
+      <ul>
+        <li><a href="#1-aloita-ongelmasta">1. Aloita ongelmasta</a></li>
+        <li><a href="#2-ideointi">2. Ideointi</a></li>
+        <li><a href="#3-äänestys">3. Äänestys</a></li>
+        <li><a href="#4-päätä-konkreettiset-toimet">4. Päätä konkreettiset toimet</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  true ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Joni Virtanen">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2025  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

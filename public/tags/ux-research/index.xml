@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ux-Research on Joni Virtanen</title>
+    <link>http://localhost:1313/tags/ux-research/</link>
+    <description>Recent content in Ux-Research on Joni Virtanen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ux-research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eksote</title>
+      <link>http://localhost:1313/case-studies/eksote/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/eksote/</guid>
+      <description>&lt;h1 id=&#34;eksote&#34;&gt;Eksote&lt;/h1&gt;&#xA;&lt;h2 id=&#34;redesigning-eksotefi-website&#34;&gt;Redesigning Eksote.fi Website&lt;/h2&gt;&#xA;&lt;p&gt;The goal of this project was to revamp the Eksote.fi website to improve user experience and address various usability issues. Key objectives included making the website more user-friendly and enhancing accessibility.&lt;/p&gt;&#xA;&lt;h2 id=&#34;user-interviews&#34;&gt;User interviews&lt;/h2&gt;&#xA;&lt;p&gt;In the pursuit of enhancing the Eksote website, we conducted user interviews as part of the project&amp;rsquo;s initial research phase. Our primary objective was to gain insights into user opinions and experiences with the current Eksote website. The valuable feedback obtained from these interviews served as a cornerstone throughout the entire project&amp;rsquo;s planning and design process, ensuring a user-centric approach.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>m2Kodit</title>
+      <link>http://localhost:1313/case-studies/m2kodit/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/m2kodit/</guid>
+      <description>&lt;h1 id=&#34;m2-kodit&#34;&gt;M2-Kodit&lt;/h1&gt;&#xA;&lt;h2 id=&#34;usability-teting&#34;&gt;Usability teting&lt;/h2&gt;&#xA;&lt;p&gt;The central objective of this UX research project was to ensure the usability of the M2-Kodit website from the perspectives of both current and potential residents (applicants).&lt;/p&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;p&gt;For this project, we divided the user testing into two distinct groups: &amp;ldquo;Current Residents&amp;rdquo; and &amp;ldquo;Potential Residents&amp;rdquo; of M2-Kodit. The test tasks were tailored to address the specific needs and objectives of each group.&lt;/p&gt;&#xA;&lt;p&gt;The primary objective of the tasks assigned to the &amp;ldquo;Current Residents&amp;rdquo; group was to identify any usability issues on the website concerning the discovery and utilization of services available to individuals currently residing in M2-Kodit&amp;rsquo;s homes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Omaolo</title>
+      <link>http://localhost:1313/case-studies/omaolo/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/omaolo/</guid>
+      <description>&lt;h1 id=&#34;omaolo&#34;&gt;Omaolo&lt;/h1&gt;&#xA;&lt;h2 id=&#34;usability-testing&#34;&gt;Usability testing&lt;/h2&gt;&#xA;&lt;p&gt;This extensive usability testing initiative encompassed a total of three distinct tests, each conducted at various stages of the service&amp;rsquo;s development. In each test, both the customer and professional perspectives were tested. In total, the number of test participants were:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Customers: 6 + 15 + 6&lt;/li&gt;&#xA;&lt;li&gt;Professionals: 4 + 12 + 4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The purpose of these usability testing projects was to uncover usability issues in omaolo.fi&amp;rsquo;s core use cases and views through usability testing. Each testing project typically focused on different use cases or views and proposed improvements for them.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

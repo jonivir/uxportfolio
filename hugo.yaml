@@ -1,0 +1,366 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Joni Virtanen"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 6
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "UX Portfolio"
+  description: UX Portfolio of Joni Virtanen
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/fav.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    #brandLogo: "images/logo.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Joni Virtanen" # Brand name for the brand | default is the title variable
+    disableSearch: false
+    searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Joni."
+    subtitle: "I design things for the web and all things digital"
+    content: "A UX Designer and researcher who is passionate about user-centric design."
+    #image: /images/hero.svg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    #socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://example.com
+        - icon: fab fa-x-twitter
+          url: https://example.com
+      customIcons:
+        - icon: /fav.png
+          url: "https://example.com"
+
+  # About
+  about:
+    enable: false
+    title: "About Me"
+    #image: "/images/me.png"
+    content: |-
+        I’m Joni, a UX Designer and researcher who is passionate about user-centric design.
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - company: "Agenda Digital Oy"
+        companyUrl: "https://agendadigital.fi"
+        jobs:
+          - name: "Project manager & designer"
+            date: "Jan 2022 - present"
+            content: "Lead end-to-end execution of web service projects by defining scope, developing project plans, and managing resources. Collaborate with stakeholders and cross-functional teams to ensure timely and quality project delivery."
+            info:
+              content: Working as a Project manager & designer
+            #featuredItems:
+              fontAwesomeIcons:
+                - icon: fa-brands fa-react
+                  url: https://react.dev/
+                  tooltip: Example tooltip content
+                - icon: fab fa-x-twitter
+                  url: https://example.com
+                  # tooltip: Example tooltip content
+              customIcons:
+                - icon: /fav.png
+                  url: "https://example.com"
+                  tooltip: Example tooltip content
+
+      - company: "Agenda Helsinki Oy"
+        companyUrl: ""
+        jobs:
+          - name: "Designer"
+            date: "Apr 2019 - Dec 2021"
+            info:
+              content: I worked as a UI/UX designer.
+            content: "Designed various web and mobile services from wireframes to detailed visual user interfaces. Additionally, planned and conducted several usability studies e.g. to OmaOlo service."
+   
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Masters Degree in Cognitive Sciences (M.Sc.)"
+        school:
+          name: "University of Jyväskylä"
+          url: "https://www.jyu.fi/ops/fi/it/kognitiotieteen-maisteriohjelma"
+        date: "2022 - "
+        #GPA: "3.8 out of 5.0"
+        content: |-
+          Masters Thesis: "Deceptive patterns from the end users perspective"
+        featuredLink:
+          enable: true
+          name: "My Masters Thesis"
+          url: "https://jyx.jyu.fi/jyx/Record/jyx_123456789_102731/Description"
+      - title: "Bachelor of Business Administration"
+        school:
+          name: "Haaga-Helia University of Applied Sciences"
+          url: "https://haaga-helia.fi"
+        date: "2017 - 2019"
+        #GPA: "3.9 out of 5.0"
+        content: |-
+          Specialized in service business and customer relationships.
+        featuredLink:
+          enable: false
+          name: "My academic record"
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: false
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+        image: /images/achievement.jpg
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+        image: /images/achievement.jpg
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievement.jpg
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Eksote
+        content: The goal of this project was to revamp the Eksote.fi website to improve user experience and address various usability issues.
+        image: images/Eksote-nosto.png
+        featured:
+          name: Read more
+          link: /case-studies/eksote/
+        badges:
+         - "case-study"
+         - "ui-design"
+         - "ux-design"
+         - "ux-research"
+
+      - title: M2-Kodit
+        content: The central objective of this UX research project was to ensure the usability of the M2-Kodit website from the perspectives of both current and potential residents (applicants).
+        image: /images/M2kodit-nosto.png
+        featured:
+          name: Read more
+          link: /case-studies/m2kodit/
+        badges:
+         - "case-study"
+         - "ux-research"
+
+      - title: Mipro
+        content: The project aimed to modernize and revamp the visual style of an existing website to enhance its overall user experience and align it with current design trends.
+        image: /images/Mipro-nosto.png
+        featured:
+          name: Read more
+          link: /case-studies/mipro/
+        badges:
+         - "case-study"
+         - "ui-design"
+
+      - title: Omaolo
+        content: This extensive usability testing initiative encompassed a total of three distinct tests, each conducted at various stages of the service's development. 
+        image: /images/Search.png
+        featured:
+          name: Read more
+          link: /case-studies/omaolo
+        badges:
+         - "case-study"
+         - "ux-research"
+
+      - title: Bioenergia
+        content: The goal of this project was to redesign a web magazine to provide a seamless user experience for readers who can both access free articles and place orders for the magazine. The challenge was to refresh the visual style while adhering to existing graphic guidelines.
+        image: /images/Bioenergia-nosto.png
+        featured:
+          name: Read more
+          link: /case-studies/bioenergia/
+        badges:
+         - "case-study"
+         - "ui-design"
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: mailto:jonivirtanen@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+    
+      
+  footer:
+
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ux-Design on Joni Virtanen</title>
+    <link>http://localhost:1313/tags/ux-design/</link>
+    <description>Recent content in Ux-Design on Joni Virtanen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ux-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eksote</title>
+      <link>http://localhost:1313/case-studies/eksote/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/case-studies/eksote/</guid>
+      <description>&lt;h1 id=&#34;eksote&#34;&gt;Eksote&lt;/h1&gt;&#xA;&lt;h2 id=&#34;redesigning-eksotefi-website&#34;&gt;Redesigning Eksote.fi Website&lt;/h2&gt;&#xA;&lt;p&gt;The goal of this project was to revamp the Eksote.fi website to improve user experience and address various usability issues. Key objectives included making the website more user-friendly and enhancing accessibility.&lt;/p&gt;&#xA;&lt;h2 id=&#34;user-interviews&#34;&gt;User interviews&lt;/h2&gt;&#xA;&lt;p&gt;In the pursuit of enhancing the Eksote website, we conducted user interviews as part of the project&amp;rsquo;s initial research phase. Our primary objective was to gain insights into user opinions and experiences with the current Eksote website. The valuable feedback obtained from these interviews served as a cornerstone throughout the entire project&amp;rsquo;s planning and design process, ensuring a user-centric approach.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
