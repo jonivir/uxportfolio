@@ -215,8 +215,8 @@ params:
         school:
           name: "University of Jyväskylä"
           url: "https://www.jyu.fi/ops/fi/it/kognitiotieteen-maisteriohjelma"
-        date: "2022 - "
-        #GPA: "3.8 out of 5.0"
+        date: "2022 - 2026"
+        GPA: "4 out of 5.0"
         content: |-
           Masters Thesis: "Deceptive patterns from the end users perspective"
         featuredLink:
